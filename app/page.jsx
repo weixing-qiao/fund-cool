@@ -141,7 +141,7 @@ function FeedbackModal({ onClose, user, onOpenWeChat }) {
               <p className="muted" style={{ fontSize: '12px', lineHeight: '1.6' }}>
                 如果您有 Github 账号，也可以在本项目
                 <a
-                  href="https://github.com/zhengshengning/fund-baby/issues"
+                  href="https://github.com/zhengshengning/fund-cool/issues"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="link-button"
@@ -3863,7 +3863,7 @@ export default function HomePage() {
               <UpdateIcon width="14" height="14" />
             </div>
           )}
-          <img alt="项目Github地址" src={githubImg.src} style={{ width: '30px', height: '30px', cursor: 'pointer' }} onClick={() => window.open("https://github.com/zhengshengning/fund-baby")} />
+          <img alt="项目Github地址" src={githubImg.src} style={{ width: '30px', height: '30px', cursor: 'pointer' }} onClick={() => window.open("https://github.com/zhengshengning/fund-cool")} />
           <button
             className="icon-button"
             onClick={toggleTheme}
@@ -5146,7 +5146,7 @@ export default function HomePage() {
                   color: '#e6a23c',
                   lineHeight: '1.4'
                 }}>
-                  ⚠️ 登录功能目前正在测试，使用过程中如遇到问题欢迎大家在 <a href="https://github.com/zhengshengning/fund-baby/issues" target="_blank" style={{ textDecoration: 'underline', color: 'inherit' }}>Github</a> 上反馈
+                  ⚠️ 登录功能目前正在测试，使用过程中如遇到问题欢迎大家在 <a href="https://github.com/zhengshengning/fund-cool/issues" target="_blank" style={{ textDecoration: 'underline', color: 'inherit' }}>Github</a> 上反馈
                 </div>
                 <div className="muted" style={{ marginBottom: 8, fontSize: '0.8rem' }}>
                   请输入邮箱，我们将发送验证码到您的邮箱

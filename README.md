@@ -1,10 +1,10 @@
-# 养基小宝-实时基金估值 (bund-baby)
+# 实时基金估值 (fund-cool)
 
-**在线预览地址：[https://fund-baby.ningzhengsheng.cn/](https://fund-baby.ningzhengsheng.cn/)**
+**在线预览地址：[https://fund-cool.ningzhengsheng.cn/](https://fund-cool.ningzhengsheng.cn/)**
 > 由于某些平台不能在实时看见基金的估值，所以做了一个基金估值的网站。
 
-![alt text](app/assets/fund-baby-img1.png)
-![alt text](app/assets/fund-baby-img2.png)
+![alt text](app/assets/fund-cool-img1.png)
+![alt text](app/assets/fund-cool-img2.png)
 
 
 ## 📖 使用说明
@@ -45,8 +45,8 @@
 
 1. 克隆仓库：
    ```bash
-   git clone https://github.com/zhengshengning/fund-baby.git
-   cd fund-baby
+   git clone https://github.com/zhengshengning/fund-cool.git
+   cd fund-cool
    ```
 
 2. 安装依赖：
@@ -117,12 +117,12 @@ npm run build
 
 1. 构建镜像
 ```
-docker build -t fund-baby .
+docker build -t fund-cool .
 ```
 
 2. 启动容器
 ```
-docker run -d -p 3000:3000 --name fund fund-baby
+docker run -d -p 3000:3000 --name fund fund-cool
 ```
 
 #### docker-compose
@@ -145,10 +145,3 @@ docker compose up -d
 - **无担保**：软件按「原样」提供，不提供任何明示或暗示的担保。
 
 完整协议文本见仓库根目录 [LICENSE](./LICENSE) 文件，或 [GNU AGPL v3 官方说明](https://www.gnu.org/licenses/agpl-3.0.html)。
-
-
----
-## 💬 联系
-Github主页：[https://github.com/zhengshengning](https://github.com/zhengshengning)
-
-个人博客：[https://ningzhengsheng.cn](https://ningzhengsheng.cn)

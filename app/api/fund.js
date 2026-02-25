@@ -427,7 +427,7 @@ export const fetchLatestRelease = async () => {
   return null;
   /*
   try {
-    const res = await fetch('https://api.github.com/repos/zhengshengning/fund-baby/releases/latest');
+    const res = await fetch('https://api.github.com/repos/zhengshengning/fund-cool/releases/latest');
     if (!res.ok) return null;
     const data = await res.json();
     return {
