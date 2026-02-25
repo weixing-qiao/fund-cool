@@ -1,6 +1,6 @@
 # 实时基金估值 (fund-cool)
 
-**在线预览地址：[https://fund-cool.ningzhengsheng.cn/](https://fund-cool.ningzhengsheng.cn/)**
+
 > 由于某些平台不能在实时看见基金的估值，所以做了一个基金估值的网站。
 
 ![alt text](app/assets/fund-cool-img1.png)
